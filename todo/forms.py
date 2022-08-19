@@ -4,4 +4,4 @@ from .models import Writing
 class Writingform(forms.ModelForm):
     class Meta:
         model = Writing
-        fields = ['content']
+        fields = '__all__'
